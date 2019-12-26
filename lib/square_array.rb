@@ -4,5 +4,6 @@ def square_array(array)
   count2 = 0
   while count2 < count1
     array[count1] * array[count1]
+    count2 += 1
   end
 end
