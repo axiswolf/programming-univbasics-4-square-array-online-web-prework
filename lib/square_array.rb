@@ -1,4 +1,4 @@
 def square_array(array)
   # your code here
-  array.reduce([]) { |a, n| a << n * n }
+  array.map { |e| e ** 2 }
 end
